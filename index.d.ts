@@ -83,6 +83,9 @@ interface CaptchaObj {
 	 */
 	data: string
 }
+
+export function createWithText(text: string, options?: ConfigObject): CaptchaObj;
+
 /**
  * This method returns a object that has two props:
  * data: svg image string
