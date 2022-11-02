@@ -84,7 +84,7 @@ interface CaptchaObj {
 	data: string
 }
 
-export function createWithText(text: string, options?: ConfigObject): CaptchaObj;
+export function createWithText(text: string, options?: ConfigObject): string;
 
 /**
  * This method returns a object that has two props:
